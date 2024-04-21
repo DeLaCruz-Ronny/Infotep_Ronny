@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\rmdpd\\Infotep_Ronny\\PruebaInfotep2.0\\SistemaLavanderia\\",
+  "WorkspaceRootPath": "C:\\Users\\validacion\\Infotep_Ronny\\Infotep_Ronny\\SistemaLavanderia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6CE1762A-B9A6-4165-810B-260CEDF07F75}|SistemaLavanderia\\SistemaLavanderia.csproj|c:\\users\\rmdpd\\infotep_ronny\\pruebainfotep2.0\\sistemalavanderia\\sistemalavanderia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CE1762A-B9A6-4165-810B-260CEDF07F75}|SistemaLavanderia\\SistemaLavanderia.csproj|solutionrelative:sistemalavanderia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6CE1762A-B9A6-4165-810B-260CEDF07F75}|SistemaLavanderia\\SistemaLavanderia.csproj|c:\\users\\validacion\\infotep_ronny\\infotep_ronny\\sistemalavanderia\\sistemalavanderia\\controllers\\abastecimientocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE1762A-B9A6-4165-810B-260CEDF07F75}|SistemaLavanderia\\SistemaLavanderia.csproj|solutionrelative:sistemalavanderia\\controllers\\abastecimientocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CE1762A-B9A6-4165-810B-260CEDF07F75}|SistemaLavanderia\\SistemaLavanderia.csproj|c:\\users\\rmdpd\\infotep_ronny\\pruebainfotep2.0\\sistemalavanderia\\sistemalavanderia\\controllers\\pedidoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CE1762A-B9A6-4165-810B-260CEDF07F75}|SistemaLavanderia\\SistemaLavanderia.csproj|solutionrelative:sistemalavanderia\\controllers\\pedidoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6CE1762A-B9A6-4165-810B-260CEDF07F75}|SistemaLavanderia\\SistemaLavanderia.csproj|c:\\users\\validacion\\infotep_ronny\\infotep_ronny\\sistemalavanderia\\sistemalavanderia\\views\\abastecimiento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6CE1762A-B9A6-4165-810B-260CEDF07F75}|SistemaLavanderia\\SistemaLavanderia.csproj|solutionrelative:sistemalavanderia\\views\\abastecimiento\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CE1762A-B9A6-4165-810B-260CEDF07F75}|SistemaLavanderia\\SistemaLavanderia.csproj|c:\\users\\rmdpd\\infotep_ronny\\pruebainfotep2.0\\sistemalavanderia\\sistemalavanderia\\views\\pedidoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6CE1762A-B9A6-4165-810B-260CEDF07F75}|SistemaLavanderia\\SistemaLavanderia.csproj|solutionrelative:sistemalavanderia\\views\\pedidoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6CE1762A-B9A6-4165-810B-260CEDF07F75}|SistemaLavanderia\\SistemaLavanderia.csproj|c:\\users\\validacion\\infotep_ronny\\infotep_ronny\\sistemalavanderia\\sistemalavanderia\\controllers\\reportescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE1762A-B9A6-4165-810B-260CEDF07F75}|SistemaLavanderia\\SistemaLavanderia.csproj|solutionrelative:sistemalavanderia\\controllers\\reportescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CE1762A-B9A6-4165-810B-260CEDF07F75}|SistemaLavanderia\\SistemaLavanderia.csproj|c:\\users\\rmdpd\\infotep_ronny\\pruebainfotep2.0\\sistemalavanderia\\sistemalavanderia\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CE1762A-B9A6-4165-810B-260CEDF07F75}|SistemaLavanderia\\SistemaLavanderia.csproj|solutionrelative:sistemalavanderia\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6CE1762A-B9A6-4165-810B-260CEDF07F75}|SistemaLavanderia\\SistemaLavanderia.csproj|c:\\users\\validacion\\infotep_ronny\\infotep_ronny\\sistemalavanderia\\sistemalavanderia\\views\\reportes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6CE1762A-B9A6-4165-810B-260CEDF07F75}|SistemaLavanderia\\SistemaLavanderia.csproj|solutionrelative:sistemalavanderia\\views\\reportes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,51 +31,54 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\rmdpd\\Infotep_Ronny\\PruebaInfotep2.0\\SistemaLavanderia\\SistemaLavanderia\\Program.cs",
-              "RelativeDocumentMoniker": "SistemaLavanderia\\Program.cs",
-              "ToolTip": "C:\\Users\\rmdpd\\Infotep_Ronny\\PruebaInfotep2.0\\SistemaLavanderia\\SistemaLavanderia\\Program.cs",
-              "RelativeToolTip": "SistemaLavanderia\\Program.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACwAAAAgAAAA",
+              "Title": "AbastecimientoController.cs",
+              "DocumentMoniker": "C:\\Users\\validacion\\Infotep_Ronny\\Infotep_Ronny\\SistemaLavanderia\\SistemaLavanderia\\Controllers\\AbastecimientoController.cs",
+              "RelativeDocumentMoniker": "SistemaLavanderia\\Controllers\\AbastecimientoController.cs",
+              "ToolTip": "C:\\Users\\validacion\\Infotep_Ronny\\Infotep_Ronny\\SistemaLavanderia\\SistemaLavanderia\\Controllers\\AbastecimientoController.cs",
+              "RelativeToolTip": "SistemaLavanderia\\Controllers\\AbastecimientoController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T05:26:38.678Z",
+              "WhenOpened": "2024-04-21T18:35:52.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\validacion\\Infotep_Ronny\\Infotep_Ronny\\SistemaLavanderia\\SistemaLavanderia\\Views\\Abastecimiento\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaLavanderia\\Views\\Abastecimiento\\Index.cshtml",
+              "ToolTip": "C:\\Users\\validacion\\Infotep_Ronny\\Infotep_Ronny\\SistemaLavanderia\\SistemaLavanderia\\Views\\Abastecimiento\\Index.cshtml",
+              "RelativeToolTip": "SistemaLavanderia\\Views\\Abastecimiento\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-21T18:35:48.631Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ClientesController.cs",
-              "DocumentMoniker": "C:\\Users\\rmdpd\\Infotep_Ronny\\PruebaInfotep2.0\\SistemaLavanderia\\SistemaLavanderia\\Controllers\\ClientesController.cs",
-              "RelativeDocumentMoniker": "SistemaLavanderia\\Controllers\\ClientesController.cs",
-              "ToolTip": "C:\\Users\\rmdpd\\Infotep_Ronny\\PruebaInfotep2.0\\SistemaLavanderia\\SistemaLavanderia\\Controllers\\ClientesController.cs",
-              "RelativeToolTip": "SistemaLavanderia\\Controllers\\ClientesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T04:10:32.12Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PedidoesController.cs",
-              "DocumentMoniker": "C:\\Users\\rmdpd\\Infotep_Ronny\\PruebaInfotep2.0\\SistemaLavanderia\\SistemaLavanderia\\Controllers\\PedidoesController.cs",
-              "RelativeDocumentMoniker": "SistemaLavanderia\\Controllers\\PedidoesController.cs",
-              "ToolTip": "C:\\Users\\rmdpd\\Infotep_Ronny\\PruebaInfotep2.0\\SistemaLavanderia\\SistemaLavanderia\\Controllers\\PedidoesController.cs",
-              "RelativeToolTip": "SistemaLavanderia\\Controllers\\PedidoesController.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAwwD4AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T02:53:48.781Z"
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\validacion\\Infotep_Ronny\\Infotep_Ronny\\SistemaLavanderia\\SistemaLavanderia\\Views\\Reportes\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaLavanderia\\Views\\Reportes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\validacion\\Infotep_Ronny\\Infotep_Ronny\\SistemaLavanderia\\SistemaLavanderia\\Views\\Reportes\\Index.cshtml",
+              "RelativeToolTip": "SistemaLavanderia\\Views\\Reportes\\Index.cshtml",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAgwF4AAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-21T18:31:20.397Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\rmdpd\\Infotep_Ronny\\PruebaInfotep2.0\\SistemaLavanderia\\SistemaLavanderia\\Views\\Pedidoes\\Index.cshtml",
-              "RelativeDocumentMoniker": "SistemaLavanderia\\Views\\Pedidoes\\Index.cshtml",
-              "ToolTip": "C:\\Users\\rmdpd\\Infotep_Ronny\\PruebaInfotep2.0\\SistemaLavanderia\\SistemaLavanderia\\Views\\Pedidoes\\Index.cshtml",
-              "RelativeToolTip": "SistemaLavanderia\\Views\\Pedidoes\\Index.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-21T02:53:07.739Z"
+              "Title": "ReportesController.cs",
+              "DocumentMoniker": "C:\\Users\\validacion\\Infotep_Ronny\\Infotep_Ronny\\SistemaLavanderia\\SistemaLavanderia\\Controllers\\ReportesController.cs",
+              "RelativeDocumentMoniker": "SistemaLavanderia\\Controllers\\ReportesController.cs",
+              "ToolTip": "C:\\Users\\validacion\\Infotep_Ronny\\Infotep_Ronny\\SistemaLavanderia\\SistemaLavanderia\\Controllers\\ReportesController.cs",
+              "RelativeToolTip": "SistemaLavanderia\\Controllers\\ReportesController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAkwN0AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T18:23:35.387Z",
+              "EditorCaption": ""
             }
           ]
         }

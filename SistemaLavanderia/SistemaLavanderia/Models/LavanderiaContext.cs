@@ -32,6 +32,7 @@ public partial class LavanderiaContext : DbContext
     public virtual DbSet<Servicio> Servicios { get; set; }
 
     public virtual DbSet<Usuario> Usuarios { get; set; }
+    public virtual DbSet<Abastecimiento> Abastecimientos { get; set; }
 
 //    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
@@ -195,6 +196,18 @@ public partial class LavanderiaContext : DbContext
             entity.HasOne(d => d.RolNavigation).WithMany(p => p.Usuarios)
                 .HasForeignKey(d => d.Rol)
                 .HasConstraintName("FK__Usuarios__rol__45F365D3");
+        });
+
+        modelBuilder.Entity<Abastecimiento>(entity =>
+        {
+            entity.HasKey(e => e.IdAbastecimiento);
+
+            entity.Property(e => e.IdAbastecimiento).HasColumnName("IdAbastecimiento");
+            entity.Property(e => e.Categoria).HasColumnName("Categoria");
+            entity.Property(e => e.cantidadaIngresar).HasColumnName("cantidadaIngresar");
+
+            entity.HasOne(d => d.CategoriaNavigation).WithMany(p => p.Abastecimientos)
+                .HasForeignKey(d => d.Categoria);
         });
 
         OnModelCreatingPartial(modelBuilder);

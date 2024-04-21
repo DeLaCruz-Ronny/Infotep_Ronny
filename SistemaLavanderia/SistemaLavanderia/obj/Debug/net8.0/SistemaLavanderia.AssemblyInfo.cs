@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaLavanderia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8358a2d72fd7dd219328b3a1e0264689a76e127")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57db0886eaf0d09eda158379e77e1f09e94b868b")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaLavanderia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaLavanderia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

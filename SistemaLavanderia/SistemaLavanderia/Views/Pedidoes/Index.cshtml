@@ -5,71 +5,111 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+@section Estilos {
+    <link href="https://cdn.datatables.net/2.0.5/css/dataTables.dataTables.css" rel="stylesheet" />
 
-<p>
-    <a asp-action="Create">Create New</a> |
-    <a asp-action="ReportePedidos">Generar Reporte</a>
-</p>
-
-<table class="table table-striped">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.CantPrendas)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.PrecioTotal)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.FechaPedido)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ClienteNavigation)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.EstadoPedidoNavigation)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.LavadoraNavigation)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ServicioNavigation)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.CantPrendas)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PrecioTotal)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.FechaPedido)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ClienteNavigation.Nombre)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.EstadoPedidoNavigation.DesEstado)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.LavadoraNavigation.DesLavadoras)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ServicioNavigation.DesServicio)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.IdPedido">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.IdPedido">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdPedido">Delete</a> |
-                <a asp-action="NotificacionPedido" asp-route-id="@item.IdPedido">Finalizar Pedido</a>
-            </td>
-        </tr>
+    <link href="https://cdn.datatables.net/fixedheader/3.2.3/css/fixedHeader.dataTables.min.css" rel="stylesheet" />
 }
-    </tbody>
-</table>
+
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <h1 class="justify-content-center">Gestion de Pedidos</h1>
+            <hr />
+            <p>
+                <a class="btn btn-primary" asp-action="Create">Create New</a> |
+            </p>
+        </div>
+        <div class="card-body">
+            <table class="table table-striped" id="tb_pedido" class="display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.CantPrendas)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.PrecioTotal)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.FechaPedido)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.ClienteNavigation)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.EstadoPedidoNavigation)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.LavadoraNavigation)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.ServicioNavigation)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CantPrendas)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.PrecioTotal)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.FechaPedido)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ClienteNavigation.Nombre)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.EstadoPedidoNavigation.DesEstado)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.LavadoraNavigation.DesLavadoras)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ServicioNavigation.DesServicio)
+                            </td>
+                            <td>
+                                <a class="btn btn-secondary" asp-action="Edit" asp-route-id="@item.IdPedido">Edit</a> |
+                                <a class="btn btn-info" asp-action="Details" asp-route-id="@item.IdPedido">Details</a> |
+                                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.IdPedido">Delete</a> |
+                                <a class="btn btn-dark" asp-action="NotificacionPedido" asp-route-id="@item.IdPedido">Finalizar Pedido</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.datatables.net/2.0.5/js/dataTables.js"></script>
+
+    <script src="https://cdn.datatables.net/fixedheader/3.2.3/js/dataTables.fixedHeader.min.js"></script>
+
+    <script>
+
+        new DataTable('#tb_pedido', {
+            layout: {
+                bottomEnd: {
+                    paging: {
+                        boundaryNumbers: false
+                    }
+                }
+            },
+            "language": {
+                url: "https://cdn.datatables.net/plug-ins/2.0.5/i18n/es-ES.json"
+            }
+        });
+
+    </script>
+}
+
+
+

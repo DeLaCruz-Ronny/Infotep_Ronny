@@ -1,0 +1,105 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+<div class="container-fluid">
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">Gestion de Reportes</h1> 
+    </div>
+
+    <div class="row">
+        @*Reporte de Pedidos*@
+        <div class="col-xl-3 col-md-3 mb-4">
+            <div class="card border-left-success shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="h5 text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                Reporte de Pedidos
+                            </div>
+                            @* <div class="h5 mb-3 font-weight-bold text-gray-800">Reporte de Pedidos</div> *@
+                            <hr class="border-bottom border-3 border-dark" />
+                            @* <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                Conteo
+                            </div> *@
+                            @* <div class="h5 mb-0 font-weight-bold text-gray-800"></div> *@
+                            <a asp-action="ReportePedidos" asp-controller="Reportes" class="btn btn-success">Generar Reporte</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        @*Reporte de inventario*@
+        <div class="col-xl-3 col-md-3 mb-4">
+            <div class="card border-left-success shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="h5 text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                Reporte de Inventario
+                            </div>
+                            @* <div class="h5 mb-3 font-weight-bold text-gray-800">Reporte de Pedidos</div> *@
+                            <hr class="border-bottom border-3 border-dark" />
+                            @* <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                            Conteo
+                            </div> *@
+                            @* <div class="h5 mb-0 font-weight-bold text-gray-800"></div> *@
+                            <a asp-action="ReporteDeConsumos" asp-controller="Reportes" class="btn btn-success">Generar Reporte</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        @*Abastecimiento de inventario*@
+        <div class="col-xl-3 col-md-3 mb-4">
+            <div class="card border-left-success shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="h5 text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                Reabastecimiento de Inventario
+                            </div>
+                            @* <div class="h5 mb-3 font-weight-bold text-gray-800">Reporte de Pedidos</div> *@
+                            <hr class="border-bottom border-3 border-dark" />
+                            @* <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                            Conteo
+                            </div> *@
+                            @* <div class="h5 mb-0 font-weight-bold text-gray-800"></div> *@
+                            <a asp-action="Index" asp-controller="Abastecimiento" class="btn btn-success">Abastecimiento</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        @*Visitas de los clientes*@
+        <div class="col-xl-3 col-md-3 mb-4">
+            <div class="card border-left-success shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="h5 text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                Informe de Frecuencia de Clientes
+                            </div>
+                            @* <div class="h5 mb-3 font-weight-bold text-gray-800">Reporte de Pedidos</div> *@
+                            <hr class="border-bottom border-3 border-dark" />
+                            @* <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                            Conteo
+                            </div> *@
+                            @* <div class="h5 mb-0 font-weight-bold text-gray-800"></div> *@
+                            <a asp-action="ReporteDeFrecuenci" asp-controller="Reportes" class="btn btn-success">Generar Reporte</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+

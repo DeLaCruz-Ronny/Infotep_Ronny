@@ -123,7 +123,7 @@ namespace SistemaLavanderia.Controllers
                     {
                         //ViewData["PocaDisponibilidad"] = "El servicio seleccionado tiene poca disponibilidad en el inventario";
                         _notfy.Information("El servicio seleccionado tiene poca disponibilidad en el inventario");
-                        var reducir = await _context.Inventarios.FirstOrDefaultAsync(l => l.Servicio == disponibilidadEnelInventario);
+                        var reducir = await _context.Inventarios.FirstOrDefaultAsync(l => l.Servicio == pedido.Servicio);
                         reducir.CantidadProducto = disponibilidadEnelInventario - 1;
                     }
 
@@ -167,7 +167,7 @@ namespace SistemaLavanderia.Controllers
             }
             ViewData["Cliente"] = new SelectList(_context.Clientes, "IdCliente", "Nombre", pedido.Cliente);
             ViewData["EstadoPedido"] = new SelectList(_context.Estados, "IdEstado", "DesEstado", pedido.EstadoPedido);
-            ViewData["Lavadora"] = new SelectList(_context.Lavadoras, "IdLavadoras", "DesLavadoras", pedido.Lavadora);
+            ViewData["Lavadora"] = new SelectList(_context.Lavadoras.Where(m => m.Disponible == true), "IdLavadoras", "DesLavadoras", pedido.Lavadora);
             ViewData["Servicio"] = new SelectList(_context.Servicios, "IdServicio", "DesServicio", pedido.Servicio);
             return View(pedido);
         }
@@ -188,6 +188,8 @@ namespace SistemaLavanderia.Controllers
             {
                 try
                 {
+                    var dispLavadora = _context.Lavadoras.Where(i => i.IdLavadoras == pedido.LavadoraNavigation.IdLavadoras).FirstOrDefault();
+                    dispLavadora.Disponible = false;
                     _context.Update(pedido);
                     await _context.SaveChangesAsync();
                 }
@@ -356,23 +358,43 @@ namespace SistemaLavanderia.Controllers
             var pedido = await _context.Pedidos.FindAsync(id);
             if (pedido == null)
             {
-                return View();
+                _notfy.Information("Registro no encontrado");
+                return RedirectToAction(nameof(Index));
             }
 
-            //Token
-            string token = "EAAHBsBGNLNABOzLpqjNwb5rSg0CeLIjs1uWSN8kLTeG3nm3xMaLBP3fd9q8PZA27s4DZCUgqfRdjDfk7gjEArO56Idp0xZBbHoIlq2ED9rfVomTRozpqxGU490DxaovZAxxe25ipgGHwgWbEpaubq5dAcwK3OUsVeFPwLyWZARobFAb6R5B8dCtPl39jsMSXZApNOdpPmlzu3cmu28";
-            //Identificador de número de teléfono
-            string idTelefono = "291141714081979";
-            //Nuestro telefono
-            string telefono = "18496244560";
-            HttpClient client = new HttpClient();
-            HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Post, "https://graph.facebook.com/v15.0/" + idTelefono + "/messages");
-            request.Headers.Add("Authorization", "Bearer " + token);
-            request.Content = new StringContent("{ \"messaging_product\": \"whatsapp\", \"to\": \"" + telefono + "\", \"type\": \"template\", \"template\": { \"name\": \"hello_world\", \"language\": { \"code\": \"en_US\" } } }");
-            request.Content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
-            HttpResponseMessage response = await client.SendAsync(request);
-            //response.EnsureSuccessStatusCode();
-            string responseBody = await response.Content.ReadAsStringAsync();
+            ////Token
+            //string token = "EAAHBsBGNLNABOzLpqjNwb5rSg0CeLIjs1uWSN8kLTeG3nm3xMaLBP3fd9q8PZA27s4DZCUgqfRdjDfk7gjEArO56Idp0xZBbHoIlq2ED9rfVomTRozpqxGU490DxaovZAxxe25ipgGHwgWbEpaubq5dAcwK3OUsVeFPwLyWZARobFAb6R5B8dCtPl39jsMSXZApNOdpPmlzu3cmu28";
+            ////Identificador de número de teléfono
+            //string idTelefono = "291141714081979";
+            ////Nuestro telefono
+            //string telefono = "18496244560";
+            //HttpClient client = new HttpClient();
+            //HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Post, "https://graph.facebook.com/v15.0/" + idTelefono + "/messages");
+            //request.Headers.Add("Authorization", "Bearer " + token);
+            //request.Content = new StringContent("{ \"messaging_product\": \"whatsapp\", \"to\": \"" + telefono + "\", \"type\": \"template\", \"template\": { \"name\": \"hello_world\", \"language\": { \"code\": \"en_US\" } } }");
+            //request.Content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+            //HttpResponseMessage response = await client.SendAsync(request);
+            ////response.EnsureSuccessStatusCode();
+            //string responseBody = await response.Content.ReadAsStringAsync();
+
+            //Obtengo el pedio del cliente seleccionado y cambio el estatus del estado a finalizado
+            var selectPedido = _context.Pedidos.Where(p => p.IdPedido == id)
+                .Include(p => p.ClienteNavigation)
+                .Include(p => p.EstadoPedidoNavigation)
+                .Include(p => p.LavadoraNavigation)
+                .Include(p => p.ServicioNavigation)
+                .FirstOrDefault();
+
+            selectPedido.EstadoPedido = 2;
+ 
+            var dispLavadora = _context.Lavadoras.Where(i => i.IdLavadoras == selectPedido.LavadoraNavigation.IdLavadoras).FirstOrDefault();
+            dispLavadora.Disponible = true;
+            selectPedido.Lavadora = null;
+
+            await _context.SaveChangesAsync();
+
+            _notfy.Success($"Saludos { selectPedido.ClienteNavigation.Nombre } le notificamos que su pedido esta listo para ser retirado", 10);
+
             return RedirectToAction("Index", "Pedidoes");
 
         }
