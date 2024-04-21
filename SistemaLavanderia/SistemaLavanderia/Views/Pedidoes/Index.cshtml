@@ -1,0 +1,75 @@
+﻿@model IEnumerable<SistemaLavanderia.Models.Pedido>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a> |
+    <a asp-action="ReportePedidos">Generar Reporte</a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CantPrendas)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PrecioTotal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaPedido)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClienteNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EstadoPedidoNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LavadoraNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ServicioNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CantPrendas)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PrecioTotal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaPedido)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClienteNavigation.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EstadoPedidoNavigation.DesEstado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LavadoraNavigation.DesLavadoras)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ServicioNavigation.DesServicio)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdPedido">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.IdPedido">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdPedido">Delete</a> |
+                <a asp-action="NotificacionPedido" asp-route-id="@item.IdPedido">Finalizar Pedido</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

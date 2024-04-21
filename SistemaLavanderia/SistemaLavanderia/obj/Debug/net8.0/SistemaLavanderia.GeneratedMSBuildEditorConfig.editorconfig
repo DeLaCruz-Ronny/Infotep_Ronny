@@ -1,0 +1,243 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SistemaLavanderia
+build_property.RootNamespace = SistemaLavanderia
+build_property.ProjectDir = C:\Users\rmdpd\Infotep_Ronny\PruebaInfotep2.0\SistemaLavanderia\SistemaLavanderia\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\rmdpd\Infotep_Ronny\PruebaInfotep2.0\SistemaLavanderia\SistemaLavanderia
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/CatProductoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0UHJvZHVjdG9lc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/CatProductoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0UHJvZHVjdG9lc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/CatProductoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0UHJvZHVjdG9lc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/CatProductoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0UHJvZHVjdG9lc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/CatProductoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0UHJvZHVjdG9lc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Clientes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Clientes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Clientes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Clientes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Clientes/Historial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSGlzdG9yaWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Clientes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Estadoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Estadoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Estadoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Estadoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Estadoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Inicio/IniciarSesion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5pY2lvXEluaWNpYXJTZXNpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Inventarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50YXJpb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Inventarios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50YXJpb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Inventarios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50YXJpb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Inventarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50YXJpb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Inventarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50YXJpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Lavadoras/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF2YWRvcmFzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Lavadoras/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF2YWRvcmFzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Lavadoras/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF2YWRvcmFzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Lavadoras/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF2YWRvcmFzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Lavadoras/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF2YWRvcmFzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Pedidoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Pedidoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Pedidoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Pedidoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Pedidoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Rols/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Rols/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Rols/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Rols/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Rols/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Servicios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljaW9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Servicios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljaW9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Servicios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljaW9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Servicios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljaW9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Servicios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljaW9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Usuarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Usuarios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Usuarios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Usuarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Usuarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rmdpd/Infotep_Ronny/PruebaInfotep2.0/SistemaLavanderia/SistemaLavanderia/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-krf6jenxow

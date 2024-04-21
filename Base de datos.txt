@@ -1,0 +1,69 @@
+Create database Lavanderia
+
+go
+
+use Lavanderia
+
+go
+
+Create table Clientes(
+	idCliente int primary key identity(1,1),
+	direccion varchar(150),
+	telefono varchar(50),
+	correo varchar(50)
+)
+go
+create table Servicios(
+	idServicio int primary key identity(1,1),
+	desServicio varchar(50),
+)
+go
+create table Lavadoras(
+	idLavadoras int primary key identity(1,1),
+	desLavadoras varchar(50),
+	disponible bit
+)
+go
+create table CatProducto(
+	idCatProducto int primary key identity(1,1),
+	descatProducto varchar(50)
+)
+go
+create table Inventario(
+	idProductos int primary key identity(1,1),
+	desProductos varchar(50),
+	Categoria int references CatProducto(idCatProducto),
+	cantidadProducto int
+)
+go
+create table Rol(
+	idRol int primary key identity(1,1),
+	desRol varchar(50)
+)
+go
+create table Estado(
+	idEstado int primary key identity(1,1),
+	desEstado varchar(50)
+)
+go
+create table Usuarios(
+	idUsuario int primary key identity(1,1),
+	usuario varchar(50),
+	clave varchar(100),
+	rol int references Rol(idRol)
+)
+go
+create table Pedidos(
+	Cliente int references Clientes(idCliente),
+	Servicio int references Servicios(idServicio),
+	Lavadora int references Lavadoras(idLavadoras),
+	cant_prendas int,
+	precio_total decimal(18,2),
+	fechaPedido datetime,
+	estadoPedido int references Estado(idEstado)
+)
+
+ALTER TABLE Clientes
+ADD nombre varchar(50)
+
+select * from Clientes
